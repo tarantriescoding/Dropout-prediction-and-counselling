@@ -1,45 +1,106 @@
-📘 Dropout Prediction and Counselling System
+🌟 Dropout Prediction and Counseling System
 
-The Dropout Prediction and Counselling System is an intelligent machine-learning–powered application designed to identify students at risk of dropping out and provide timely counselling support. Using academic, behavioural, demographic, and socio-economic factors, the system predicts dropout likelihood and offers actionable insights to institutions, teachers, and counsellors.
+A complete ML-powered student risk analysis, explainability, and counseling support platform.
 
-🔍 Key Features
+📘 Overview
 
-Machine Learning Prediction
-Utilizes trained models to accurately determine the probability of student dropout.
+The Dropout Prediction and Counseling System is an end-to-end machine learning application designed to help educational institutions identify students at risk of dropping out and provide timely, data-driven interventions.
 
-Real-time Analysis
-Takes student-related inputs such as attendance, grades, participation, feedback, etc., and produces instant predictions.
+Built with XGBoost, SHAP explainability, and an intuitive Streamlit UI, the system combines predictive accuracy with transparency—ensuring teachers, counselors, and administrators can trust and act on the insights.
 
-Counselling Recommendation
-Provides automated suggestions and intervention strategies tailored to the risk level.
+This project also focuses on practical adoption by reducing the “black-box” barrier through clear visual explanations and automatic counseling recommendations.
 
-Interactive Interface
-A user-friendly web app built (Streamlit / Flask / Django — customize based on your project) to visualize predictions and insights.
+🚀 Key Features
+🔮 1. Dropout Risk Prediction (XGBoost)
 
-Data-driven Insights
-Helps institutions take informed decisions to reduce dropout rates and improve student retention.
+Trains a robust model on student academic, attendance, and demographic data
 
-🎯 Objective
+Handles missing values, mixed data types, categorical encoding, and scaling
 
-To assist schools, colleges, and universities in early identification of at-risk students and provide timely counselling, thereby improving overall academic performance and reducing dropout rates.
+Supports both Simple mode (auto settings) and Advanced mode (customizable model parameters)
 
+🧠 2. Explainable AI with SHAP
 
-🚀 How It Works
+Global SHAP summary plots
 
-Input student details into the system.
+Per-student explanations (feature contribution, waterfall plots)
 
-Model preprocesses data and predicts dropout probability.
+Helps educators understand why the model predicts risk
 
-System displays risk category (Low / Medium / High).
+📊 3. Interactive Analytics Dashboard
 
-Provides counselling suggestions and mitigation steps.
+Risk distribution charts
 
-📊 Applications
+Pie charts of risk levels
 
-Educational institutions
+Confusion matrix and model evaluation metrics
 
-Student counselling systems
+Top high-risk students are sorted automatically
 
-Research on dropout factors
+🔍 4. Student Search
 
-Early warning and student support systems
+Search by ID, name, roll number, or email
+
+Instant risk report, SHAP explanation, and summary stats
+
+Downloadable per-student report (CSV)
+
+🤝 5. Counseling & Peer Mentoring
+
+Auto-generated counseling suggestions for Low/Medium/High risk
+
+Identifies potential peer mentors based on attendance and performance
+
+Auto-matches mentors with high-risk students (demo)
+
+⚙️ 6. Smart Auto-Detection
+
+Detects target column, ID column, and numeric/categorical features
+
+Detects attendance & marks columns for summaries
+
+Works with messy or unstructured CSVs
+
+🏗️ Tech Stack
+
+Python
+
+Streamlit (UI)
+
+XGBoost (Model)
+
+SHAP (Explainability)
+
+Plotly / Matplotlib (Visualizations)
+
+Pandas, NumPy, Scikit-Learn
+
+Joblib for model persistence
+
+🧪 How It Works
+
+1️⃣ Upload student dataset (CSV)
+2️⃣ Auto-detection of relevant columns
+3️⃣ Train model in one click
+4️⃣ View dashboard, SHAP results, or search for a specific student
+5️⃣ Get generated alerts and counseling suggestions
+6️⃣ Export predictions or individual reports
+
+🎯 Purpose
+
+This system aims to support:
+
+Schools & Universities
+
+Teachers & Mentors
+
+Counselors & Student Support Teams
+
+Education Researchers & Policy Makers
+
+By providing early warning signals and actionable support plans, the project helps reduce student dropout rates and promote timely interventions.
+
+🤝 Contributions
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a PR or create an issue.
