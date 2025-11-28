@@ -1,4 +1,4 @@
-🌟 Dropout Prediction and Counseling System
+**🌟 Dropout Prediction and Counseling System** (Umeed Rise)
 
 A complete ML-powered student risk analysis, explainability, and counseling support platform.
 
@@ -10,7 +10,7 @@ Built with XGBoost, SHAP explainability, and an intuitive Streamlit UI, the syst
 
 This project also focuses on practical adoption by reducing the “black-box” barrier through clear visual explanations and automatic counseling recommendations.
 
-🚀 Key Features
+**🚀 Key Features**
 🔮 1. Dropout Risk Prediction (XGBoost)
 
 Trains a robust model on student academic, attendance, and demographic data
@@ -19,7 +19,7 @@ Handles missing values, mixed data types, categorical encoding, and scaling
 
 Supports both Simple mode (auto settings) and Advanced mode (customizable model parameters)
 
-🧠 2. Explainable AI with SHAP
+**🧠 2. Explainable AI with SHAP**
 
 Global SHAP summary plots
 
@@ -27,7 +27,7 @@ Per-student explanations (feature contribution, waterfall plots)
 
 Helps educators understand why the model predicts risk
 
-📊 3. Interactive Analytics Dashboard
+**📊 3. Interactive Analytics Dashboard**
 
 Risk distribution charts
 
@@ -37,7 +37,7 @@ Confusion matrix and model evaluation metrics
 
 Top high-risk students are sorted automatically
 
-🔍 4. Student Search
+**🔍 4. Student Search**
 
 Search by ID, name, roll number, or email
 
@@ -45,7 +45,7 @@ Instant risk report, SHAP explanation, and summary stats
 
 Downloadable per-student report (CSV)
 
-🤝 5. Counseling & Peer Mentoring
+**🤝 5. Counseling & Peer Mentoring**
 
 Auto-generated counseling suggestions for Low/Medium/High risk
 
@@ -53,7 +53,7 @@ Identifies potential peer mentors based on attendance and performance
 
 Auto-matches mentors with high-risk students (demo)
 
-⚙️ 6. Smart Auto-Detection
+**⚙️ 6. Smart Auto-Detection**
 
 Detects target column, ID column, and numeric/categorical features
 
@@ -61,7 +61,7 @@ Detects attendance & marks columns for summaries
 
 Works with messy or unstructured CSVs
 
-🏗️ Tech Stack
+**🏗️ Tech Stack**
 
 Python
 
@@ -77,7 +77,7 @@ Pandas, NumPy, Scikit-Learn
 
 Joblib for model persistence
 
-🧪 How It Works
+**🧪 How It Works**
 
 1️⃣ Upload student dataset (CSV)
 2️⃣ Auto-detection of relevant columns
@@ -86,7 +86,7 @@ Joblib for model persistence
 5️⃣ Get generated alerts and counseling suggestions
 6️⃣ Export predictions or individual reports
 
-🎯 Purpose
+**🎯 Purpose**
 
 This system aims to support:
 
@@ -100,7 +100,6 @@ Education Researchers & Policy Makers
 
 By providing early warning signals and actionable support plans, the project helps reduce student dropout rates and promote timely interventions.
 
-🤝 Contributions
+**🤝 Contributions**
 
-Contributions, issues, and feature requests are welcome!
-Feel free to open a PR or create an issue.
+Mridul Kathait | Linkdin | Github
