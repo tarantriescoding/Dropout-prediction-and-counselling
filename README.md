@@ -11,6 +11,7 @@ Built with XGBoost, SHAP explainability, and an intuitive Streamlit UI, the syst
 This project also focuses on practical adoption by reducing the “black-box” barrier through clear visual explanations and automatic counseling recommendations.
 
 **🚀 Key Features**
+
 🔮 1. Dropout Risk Prediction (XGBoost)
 
 Trains a robust model on student academic, attendance, and demographic data
